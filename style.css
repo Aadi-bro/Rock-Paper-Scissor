@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+h1{
+    background-color: rgba(44, 39, 39, 0.853);
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.box{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-top: .5rem;
+    border-radius: 50%;
+   
+}
+
+.boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    background-color: transparent;
+}
+
+.box:hover{
+    cursor: pointer;
+    background-color: white;
+    box-shadow:  15px 15px 47px #5a5a5a,
+             -15px -15px 47px #ffffff;
+}
+
+.scores{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 3rem;
+    margin-top: 3rem;   
+    gap: 5rem;
+}
+
+#user-score #oppo-score{
+    font-size: 4rem;
+}
+
+.declare{
+    margin-top: 3rem;
+}
+#msg{
+    background-color:white;
+    color: black;
+    display: inline;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+}
